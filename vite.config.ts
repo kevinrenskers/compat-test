@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [sveltekit()],
   build: {
     sourcemap: true,
-    target: "es2021",
+    target: "es2015",
   },
 });
